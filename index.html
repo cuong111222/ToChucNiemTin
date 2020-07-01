@@ -1,0 +1,269 @@
+<html lang="en">
+<head>
+<title>Tổ chức niềm tin</title>
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.ui.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.defaultvalue.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.scrollTo-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#fullname, #validemail, #message").defaultvalue("Họ và tên", "Địa chỉ email", "Ghi chú");
+    $('#shout a').click(function () {
+        var to = $(this).attr('href');
+        $.scrollTo(to, 1200);
+        return false;
+    });
+    $('a.topOfPage').click(function () {
+        $.scrollTo(0, 1200);
+        return false;
+    });
+    $("#tabcontainer").tabs({
+        event: "click"
+    });
+});
+</script>
+<!-- Homepage Only Scripts -->
+<script type="text/javascript" src="layout/scripts/jquery.cycle.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('#hpage_slider').after('<div id="fsn"><ul id="fs_pagination">').cycle({
+        timeout: 5000,
+        fx: 'fade',
+        pager: '#fs_pagination',
+        pause: 1,
+        pauseOnPagerHover: 0
+    });
+});
+</script>
+<script type="text/javascript" src="layout/scripts/piecemaker/swfobject/swfobject.js"></script>
+<script type="text/javascript">
+var flashvars = {};
+flashvars.cssSource = "layout/scripts/piecemaker/piecemaker.css";
+flashvars.xmlSource = "layout/scripts/piecemaker/piecemaker.xml";
+var params = {};
+params.play = "false";
+params.menu = "false";
+params.scale = "showall";
+params.wmode = "transparent";
+params.allowfullscreen = "true";
+params.allowscriptaccess = "sameDomain";
+params.allownetworking = "all";
+swfobject.embedSWF('layout/scripts/piecemaker/piecemaker.swf', 'piecemaker', '960', '430', '10', null, flashvars, params, null);
+</script>
+    
+<!-- End Homepage Only Scripts -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="topbar" class="clear">
+    <form action="#" method="post" id="search">
+      <fieldset>
+        <legend>Site Search</legend>
+        <input type="text" value="Search" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+        <input type="image" id="go" src="images/search.gif" alt="Search" />
+      </fieldset>
+    </form>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <img src="images/104370246_269571370783523_1525616792409954731_n.jpg" alt=logo class="logo">
+    </div>
+    <div id="topnav">
+      <ul>
+        <li><a href="pages/peoplesayus.html">Nói gì về chúng tôi</a></li>
+        <li><a href="pages/project.html">Dự án</a></li>
+        <li><a href="pages/partner.html">Đối tác</a></li>
+        <li><a href="#">Trẻ</a>
+          <ul>
+            <li><a href="pages/children.html">Trẻ mồ côi</a></li>
+            <li><a href="#">Trẻ khuyết tật</a></li>
+            <li><a href="#">Trẻ tự kỷ</a></li>
+          </ul>
+        </li>
+          <li class="active"><a href="#">Giởi thiệu</a>
+          <ul>
+            <li><a href="pages/intro1.html">Chúng tôi</a></li>
+            <li><a href="#">Quy chế hoạt động</a></li>
+            <li><a href="#">Báo cáo tài chính</a></li>
+          </ul>
+        </li>
+        <li><a href="index.html">Trang chủ</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div id="featured_slide"> 
+    <!-- ####################################################################################################### -->
+    <div id="piecemaker"><img src="images/demo/piecemaker/960x360.jpg" alt="" /></div>
+    <!-- ####################################################################################################### --> 
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  <div id="container" class="clear"> 
+    <!-- ####################################################################################################### -->
+    <div id="homepage" class="clear">
+      <div class="fl_left">
+        <h2>DỰ ÁN CỦA CHÚNG TÔI</h2>
+        <div id="hpage_slider">
+          <div class="item"><img src="images/demo/featured-project/1.jpg" alt="" /></div>
+          <div class="item"><img src="images/demo/featured-project/2.jpg" alt="" /></div>
+          <div class="item"><img src="images/demo/featured-project/3.png" alt="" /></div>
+          <div class="item"><img src="images/demo/featured-project/4.png" alt="" /></div>
+          <div class="item"><img src="images/demo/featured-project/5.png" alt="" /></div>
+        </div>
+        <h2>DỰ ÁN ĐANG THỰC HIỆN</h2>
+        <p><strong>Tên dự án:</strong> <a href="#">Làng thiện nguyện</a></p>
+        <p>Mô hình “Làng Thiện Nguyện” được xây dựng trên 60 tỉnh thành Việt Nam sẽ bao gồm cơ sở y tế (Bệnh viện hoặc Phòng Khám Đa Khoa) và cơ sở giáo dục từ Tiểu học tới THPT đảm bảo chất lượng giảng dạy và chi phí phù hợp với thu nhập của người dân địa phương. Bên cạnh đó, Làng còn có Viện dưỡng lão và Cô Nhi viện nuôi dưỡng những người già cô đơn và trẻ em mồ côi có hoàn cảnh khó khăn từ nguồn kinh phí phúc lợi xã hội của Bệnh viện và Trường học. One Health Foundation sẽ chịu trách nhiệm quyên góp, gây quỹ để xây dựng và vận hành dự án</p>
+        <p class="readmore"><a href="#"><strong>Đọc thêm  &raquo;</strong></a></p>
+      </div>
+      <div class="fl_right" id="feature_detail">
+          <h2>MỌI NGƯỜI NÓI GÌ VỀ CHÚNG TÔI </h2>
+        <ul class="testimonials">
+          <li>
+            <p class="name"><strong>(BÀ) TRẦN THỊ HUỆ</strong></p>
+            <blockquote>Theo cô thấy thì về mặt thiết kế thì thiết kế đẹp, về KTS. Phan Bảo Huy cũng là một kiến trúc sư nhiệt tình, yêu nghề nên thành ra làm là phải cho đẹp. Thì cô thấy phần thiết kế cô vừa ý. Còn về phần kỹ thuật thì cũng chưa được hoàn chỉnh</blockquote>
+            <p class="readmore"><a href="#"><strong>Đọc thêm</strong></a></p>
+          </li>
+          <li class="last">
+            <p class="name"><strong>(ÔNG) MAI VĂN DỤNG</strong></p>
+            <blockquote>"Ngay khâu từ đầu thiết kế thì chú đã rất là thích rồi. Chú đã mời công ty đến để mà làm việc với chú thì chú đã rất thích, cái đó không bàn nữa. Vấn đề về thiết kế, kỹ thuật, phòng ốc, công năng thì ok. Chú nhất trí, rất là tốt. Trong quá</blockquote>
+            <p class="readmore"><a href="#"><strong>Đọc thêm</strong></a></p>
+          </li>
+        </ul>
+          <h2>BẢN TIN ĐIỆN TỬ</h2>
+        <p>Để lại email của bạn để nhận những tin tức mới nhất về chúng tôi</p>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Newsletter Signup:</legend>
+            <input type="text" id="newsletter" value="Enter Email Here&hellip;" onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
+            <input type="image" id="subscribe" src="images/sign-up.gif" alt="Submit" />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+      
+    <!-- ####################################################################################################### --> 
+      <div id="shout" class="clear">
+      <div class="fl_left">
+        <h2>CHUNG TAY VÌ TRẺ EM</h2>
+        <p>Vì cuộc sống của trẻ em khuyết tật hôm nay và mai sau</p>
+      </div>
+      <p class="fl_right"><a href="#donate">Quyên góp ngay</a></p>
+    </div>
+        <div class="partners">
+        <div class="logos">
+            <div class="logo-new">
+              <img width="103"   height="24"src="pages/images/partner/Canada-PNG.png" alt=logo >
+                </div>
+            <div class="logo-new">
+              <img width="189"   height="31" src="pages/images/partner/GB.png" alt=logo >
+                    </div>
+            <div class="logo-new">
+              <img width="130"   height="34" src="pages/images/partner/Levi.png" alt=logo >
+                    </div>
+            <div class="logo-news">
+              <img width="95"    height="100" src="pages/images/partner/Pepfar.png" alt=logo >
+                    </div>
+            <div class="logo-new">
+              <img width="104"   height="38"  src="pages/images/partner/SIDA-png.png" alt=logo >
+                    </div>
+            <div class="logo-news">
+              <img width="122px" height="100px" src="pages/images/partner/USAID.png" alt=logo>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="footer" class="clear">
+    <div class="fl_left">
+      <div class="about_us border">
+        <h2>Thông tin về chúng tôi</h2>
+        <p>Đây là một tổ chức phi lợi nhuận, hoạt động trong lĩnh vực từ thiện, nhân đạo. Quỹ ra đời với mục đích làm cầu nối giữa các tổ chức, nhà hảo tâm với những trẻ em không may bị khuyết tật, di chứng chất độc da cam, nhằm chăm sóc, bảo vệ, giúp đỡ cuộc sống của các em, tạo điều kiện cho các em phát triển tối đa tiềm năng bản thân để có thể hòa nhập với cộng đồng.</p>
+      </div>
+      <div id="contact" class="clear">
+        <h2>Liên hệ với chúng tôi</h2>
+        <div class="fl_left">
+          <form method="post" action="#">
+            <label for="fullname">Name:</label>
+            <input type="text" name="fullname" id="fullname" value="" />
+            <label for="validemail">Email:</label>
+            <input type="text" name="validemail" id="validemail" value="" />
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="45" rows="10"></textarea>
+            <button type="submit" value="submit"><span>Xác nhận</span></button>
+          </form>
+        </div>
+        <div class="fl_right">
+          <address>
+          <strong class="title">Địa chỉ</strong><br />
+         141-145 Điện Biên Phủ,P.15<br />
+          Quận Bình Thạnh<br />
+        TP.HCM
+          </address>
+          <ul>
+            <li><strong class="title">Điện thoại liên hệ:</strong><br />
+              xxxxx xxxxxxxxxx</li>
+            <li><strong class="title">Fax:</strong><br />
+              xxxxx xxxxxxxxxx</li>
+            <li><strong class="title">Email:</strong><br />
+              <a href="#">tochucniemtin@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div class="fl_right">
+      <div id="tabcontainer" class="border">
+        <ul id="tabnav">
+          <li><a href="#tabs-1">Bài viết liên quan</a></li>
+          <li class="last"><a href="#tabs-2">Những thông tin khác</a></li>
+        </ul>
+        <div id="tabs-1" class="tabcontainer">
+          <ul class="blogposts">
+            <li>
+              <p class="posttitle">Một số gợi ý phát triển ngôn ngữ và giao tiếp cho trẻ khiếm thính</p>
+              <p class="publishedon">February 14, 2020 by L.T.Quý</p>
+              <p class="postintro">Giao tiếp với trẻ trong khi chơi hoặc tham gia chơi cùng với trẻ,đều là một cơ hội rất tốt cho bạn và trẻ. Trong […]</p>
+              <p class="readmore"><a href="#">Đọc thêm  &raquo;</a></p>
+            </li>
+            <li class="last">
+              <p class="posttitle">Trẻ khiếm thính bị tự kỷ</p>
+              <p class="publishedon">April 21, 2020, by ZiNo</p>
+              <p class="postintro">Thực tế có 2-4 % trẻ khiếm thính có kèm theo khó khăn khác, đó là Tự kỷ. Nếu trẻ bị khiếm thính kết hợp […]</p>
+              <p class="readmore"><a href="#">Đọc thêm  &raquo;</a></p>
+            </li>
+          </ul>
+        </div>
+        <!-- ########### -->
+        <div id="tabs-2" class="tabcontainer">
+          <ul>
+            <li><a href="#">Đội ngũ phát triển</a></li>
+            <li><a href="#">Đội ngũ chủ chốt</a></li>
+            <li><a href="#">Đánh giá của báo</a></li>
+            <li><a href="#">Tuyển dụng</a></li>
+            <li><a href="#">Hỗ Trợ</a></li>
+            <li class="last"><a href="#">Lời cảm ơn</a></li>
+          </ul>
+        </div>
+      </div>
+      <ul class="socialize">
+        <h2>Theo dõi chúng tôi thông qua:</h2>
+        <li><span>Facebook:</span> <a href="#">www.facebook.com/tochucniemtin</a></li>
+        <li><span>Youtube:</span> <a href="#">www.youtube.com/tochucniemtin</a></li>
+        <li class="last"><span>Instagram:</span> <a href="#">www.instagram.com/tochucniemtin</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+</body>
+</html>

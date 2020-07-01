@@ -1,0 +1,7 @@
+.logo-new {margin: 2%;text-align: center;}
+.logo-news {margin: -2% 2% 2% 2%;}
+.logo {width: auto;height: 100px;margin:-50px 0 15px 0;}
+.logo2 {width: auto;height: 100px;margin:10px 0 10px 0;}
+.logos {display: flex;padding-left: 12.5%;padding-top: 4%;padding-bottom: 2%;}
+#container .logos {display: flex;padding-left: 0;padding-top: 5%;padding-bottom: 5%;}
+.logo3 {width:350px; height: 80%;margin:10% 0 10% 0;  border-radius: 25px;}
